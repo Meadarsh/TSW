@@ -1,0 +1,1 @@
+export const  NavBarButton =["How it works","Style galary","News/Blogs","Quiz","Try now"]
