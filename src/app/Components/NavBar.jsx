@@ -25,12 +25,12 @@ const NavBar = () => {
 
 
   return (
-    <div className=' backdrop-blur-sm  z-50 top-0 lg:h-20 h-14 w-full font-bold flex items-center px-10 justify-between '>
-        <div className="logo">
+    <div className='absolute top-0 z-50 lg:h-20 h-14 w-full font-bold flex items-center px-10 justify-between '>
+        <div className="logo p-3 rounded-full bg-white text-blue-500">
             <h1>TSW</h1>
         </div>
         <div className=' lg:flex lg:gap- items-center hidden gap-3'>
-        <div className="button font-medium lg:flex gap-10">
+        <div className="button font-medium lg:hidden gap-10">
             {NavBarButton.map((data,index)=>(<div className='cursor-pointer' key={index}>
               <p>{data}</p>
             </div>))}
