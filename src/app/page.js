@@ -11,17 +11,19 @@ import Lenis from "@studio-freight/lenis";
 import ScrollTrigger from "gsap/src/ScrollTrigger";
 import gsap from "gsap";
 export default function Home() {
+useEffect(()=>{
   const lenis = new Lenis()
 
 
-lenis.on('scroll', ScrollTrigger.update)
-
-gsap.ticker.add((time)=>{
-  lenis.raf(time * 1000)
+  lenis.on('scroll', ScrollTrigger.update)
+  
+  gsap.ticker.add((time)=>{
+    lenis.raf(time * 1000)
+  })
+  
+  gsap.ticker.lagSmoothing(0)
+  
 })
-
-gsap.ticker.lagSmoothing(0)
-
   return (
   <div id="js-target" data-scroll-container  className="relative dark:bg-zinc-900 dark:text-white bg-gray-200 ">
   <NavBar/>
