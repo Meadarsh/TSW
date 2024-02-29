@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className="w-full flex flex-col lg:flex-row px-2 gap-1 lg:px-10">
         <div className="logo text-3xl lg:w-[20vw]"><h1>TSW</h1></div>
-        <div className="others lg:border-l border-gray-600 pl-2">
+        <div className=" font-secondary others lg:border-l border-gray-600 pl-2">
             <h1>About Us</h1>
             <p>Our community</p>
             <p>Join us</p>

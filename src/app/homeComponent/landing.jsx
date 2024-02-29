@@ -24,6 +24,13 @@ const Landing = () => {
     });
     return () => ctx.revert();
   });
+ useEffect(()=>{
+  gsap.to('.landingpageheading h1 ', {
+    y:'-1vw',
+    duration: 1,
+ })
+ },[])
+
   return (
     <div
       data-scroll
@@ -31,12 +38,12 @@ const Landing = () => {
       className="h-[100vh] overflow-hidden"
     >
       <img
-        className="landingpageimg lg:w-full h-full object-cover"
-        src="/Slider11.jpg"
+        className="landingpageimg lg:w-full h-full "
+        src="/Image/14.png"
         alt="N/A"
       />
-      <div className=" absolute top-[35vh] w-full lg:text-[5vw] text-[7vw] text-white flex items-center justify-center font-medium">
-      Your pocket friendly stylist
+      <div className="landingpageheading  h-[7vw] overflow-hidden font-primary absolute top-[40vh] lg:top-[56vh] w-full lg:text-[6.5vw] text-[7vw] text-white flex items-center justify-center font-medium">
+      <h1 className="translate-y-full leading-none">Your pocket friendly stylist</h1>
       </div>
     </div>
   );

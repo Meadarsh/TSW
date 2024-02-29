@@ -59,12 +59,12 @@ const SecondPage = () => {
       <div className="secondpage h-[100vh] w-full">
         <div className="thirdpinner2 relative overflow-hidden w-full h-full">
           <img
-            className="lg:w-full  h-full object-cover"
-            src="/Slider14.jpg"
+            className="lg:w-full brightness-90  h-full object-cover"
+            src="/Image/20.png"
             alt="N/A"
           />
           <div className="darkfront text-white h-full w-full absolute lg:pl-3 p-1 top-0 flex flex-col justify-center">
-            <h1 className="lg:w-[60%] text-4xl w-[80%] lg:text-5xl font-bold">
+            <h1 className=" font-primary lg:w-[60%] text-4xl w-[80%] lg:text-5xl font-bold">
               Style your outfits or match your mood-swings in a go
             </h1>
           </div>
@@ -91,14 +91,14 @@ const SecondPage = () => {
           </div>
         </div>
         <div className="title z-10 text-white absolute w-full h-full text-center">
-          <h1 className="lg:text-[4vw] lg:mt-14 mt-20 text-[5vw] font-medium tracking-tighter leading-none">
+          <h1 className=" font-primary lg:text-[4vw] lg:mt-14 mt-20 text-[5vw] font-medium tracking-tighter leading-none">
             Features & Benefits
           </h1>
-          <div className=" w-[70%] text-white m-auto mt-[30vh] h-[60vh]">
+          <div className=" font-primary w-[70%] text-white m-auto mt-[30vh] h-[60vh]">
             <h1 className=" text-center lg:text-5xl text-3xl font-light lg:font-medium lg:text-start">
               {FeaturePageHeading.at(activeIndex)}
             </h1>
-            <p className="text-center lg:text-xl text-sm font-light lg:font-medium lg:text-start">
+            <p className=" font-secondary text-center lg:text-xl text-sm font-light lg:font-medium lg:text-start">
               {FeaturePageTxt.at(activeIndex)}
             </p>
           </div>

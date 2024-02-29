@@ -25,3 +25,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #000000;
 }
+
+
+@font-face {
+  font-family: ITC Bauhaus;
+  src: url("/public/Font/BauhausStd-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: Glacial Indifference;
+  src: url("/public/Font/GlacialIndifference-Regular.otf") format("opentype");
+}
