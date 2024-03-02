@@ -43,6 +43,11 @@ const SecondPage = () => {
             }
           },
         },
+        onComplete: () => {
+          gsap.to('.messagesend',{
+            y:-190
+          })
+        }
       });
     });
     return () => ctx.revert();
@@ -59,18 +64,24 @@ const SecondPage = () => {
       <div className="secondpage h-[100vh] w-full">
         <div className="thirdpinner2 relative overflow-hidden w-full h-full">
           <img
-            className="lg:w-full brightness-90  h-full object-cover"
+            className="lg:w-full hidden lg:block brightness-90  h-full object-cover"
             src="/Image/20.png"
             alt="N/A"
           />
-          <div className="darkfront text-white h-full w-full absolute lg:pl-3 p-1 top-0 flex flex-col justify-center">
-            <h1 className=" font-primary lg:w-[60%] text-4xl w-[80%] lg:text-5xl font-bold">
+        <img className="landingpageimg w-full object-cover block lg:hidden " src="/MobileImg/20.png" alt="N/A" />
+
+          <div className="darkfront text-white h-full w-full absolute lg:pl-3 p-1 top-0 flex items-center flex-col justify-center">
+            <h1 className=" font-primary lg:w-[65%] text-4xl w-[80%] lg:text-5xl font-bold">
               Style your outfits or match your mood-swings in a go
             </h1>
           </div>
         </div>
       </div>
-      <div className="fandb h-[100vh] relative mt-32 flex lg:flex-row flex-col items-center">
+      
+      <div className="h-32 w-full text-[3vw] font-primary flex items-center justify-center">
+  <h1>What if we were capable of creating a higher quality of life?</h1>
+      </div>
+      <div className="fandb h-[100vh] relative flex lg:flex-row flex-col items-center">
         <div className="slider flex items-center overflow-hidden w-[100%] h-full">
           <div
             className="text-white h-full w-full"   

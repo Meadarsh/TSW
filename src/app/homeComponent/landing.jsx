@@ -38,11 +38,12 @@ const Landing = () => {
       className="h-[100vh] overflow-hidden"
     >
       <img
-        className="landingpageimg lg:w-full h-full "
+        className="landingpageimg hidden lg:block object-cover h-full "
         src="/Image/14.png"
         alt="N/A"
       />
-      <div className="landingpageheading  h-[7vw] overflow-hidden font-primary absolute top-[40vh] lg:top-[56vh] w-full lg:text-[6.5vw] text-[7vw] text-white flex items-center justify-center font-medium">
+       <img className="landingpageimg h-full object-cover block lg:hidden " src="/MobileImg/14.png" alt="N/A" />
+      <div className="landingpageheading  h-[7vw] overflow-hidden font-primary absolute top-[40vh] lg:top-[45vh] w-full lg:text-[6.5vw] text-[7vw] text-white flex items-center justify-center font-medium">
       <h1 className="translate-y-full leading-none">Your pocket friendly stylist</h1>
       </div>
     </div>
