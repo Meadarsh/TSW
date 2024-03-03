@@ -9,7 +9,7 @@ const Footer = () => {
     <div className=" footer lg:h-[8vh] h-[5vh] bg-black dark:bg-zinc-300 dark:text-black text-white">
        <div className="messagesend absolute w-full flex flex-col items-center justify-center">
        <div className="p-4 bg-black bg-opacity-45 rounded-md shadow-md ">
-       <h1 className="text-center text-5xl"> Early access available</h1>
+       <h1 className="text-center text-4xl"> Early access available</h1>
         <div className="flex justify-center items-center gap-4 mt-10">
          <input type="text" name="" id="" placeholder="Enter your email" className="text-white bg-transparent border-b-2 border-black text-xl focus:outline-none" />
           <button className="p-3 rounded-full bg-black text-white">Subscribe</button> 
