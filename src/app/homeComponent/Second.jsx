@@ -12,6 +12,7 @@ import {
   FeaturePageTxt,
   FeaturePageMobileImg,
 } from "../Data/Homepage";
+import Image from "next/image";
 
 const SecondPage = () => {
   const [activeIndex, setActiveIndex] = React.useState(0);
@@ -98,7 +99,7 @@ const SecondPage = () => {
         >
           {FeaturePageMobileImg.map((path, index) => (
             <SwiperSlide  key={index} className="relative overflow-hidden">
-              <img
+              <Image
                 src={path}
                 alt="N/a"
                 className="w-full h-full object-cover"
@@ -127,7 +128,7 @@ const SecondPage = () => {
               {FeaturePageImg.map((url) => (
                 <div key={url} className="w-[calc(100vw-10px)] shrink-0 h-full">
                   {" "}
-                  <img
+                  <Image
                     src={url}
                     alt="N/A"
                     className="h-full w-full object-cover"
