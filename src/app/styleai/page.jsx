@@ -90,7 +90,7 @@ useEffect(()=>{
       wrapper="p"
       cursor={true}
       speed={50}
-      style={{ fontSize: '1.1em',color:"white", display: 'inline-block' }}
+      style={{ fontSize:'1.1em',color:"white", display: 'inline-block' }}
     />}
   </div>
 
