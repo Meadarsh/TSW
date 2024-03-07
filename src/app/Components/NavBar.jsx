@@ -3,6 +3,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMoonOutline } from "react-icons/io5";
 import { LuSunDim } from "react-icons/lu";
 import { NavBarButton } from '../Data/Nav'
+import Link from 'next/link';
+
 
 const NavBar = () => {
 
@@ -27,7 +29,7 @@ const NavBar = () => {
   return (
     <div className='absolute top-0 z-50 lg:h-20 h-14 w-full font-bold flex items-center px-10 justify-between '>
         <div className="logo p-3 rounded-full bg-white text-blue-500">
-           <Link to='/styleai'> <h1>TSW</h1></Link>
+           <Link href='/styleai'> <h1>TSW</h1></Link>
         </div>
         <div className=' lg:flex lg:gap- items-center hidden gap-3'>
         <div className="button font-medium lg:hidden gap-10">

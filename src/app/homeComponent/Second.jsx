@@ -102,6 +102,8 @@ const SecondPage = () => {
               <Image
                 src={path}
                 alt="N/a"
+                width={700}
+                height={1000}
                 className="w-full h-full object-cover"
               />
               <div className="title z-10 text-white top-0 absolute w-full h-full text-center">
@@ -131,6 +133,8 @@ const SecondPage = () => {
                   <Image
                     src={url}
                     alt="N/A"
+                    width={2000}
+                    height={1080}
                     className="h-full w-full object-cover"
                   />
                 </div>
