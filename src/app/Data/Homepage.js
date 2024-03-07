@@ -14,6 +14,14 @@ export const FeaturePageImg = [
   "/Image/19.png",
   "/Image/20.png",
 ];
+export const FeaturePageMobileImg = [
+  "/MobileImg/15.png",
+  "/MobileImg/16.png",
+  "/MobileImg/17.png",
+  "/MobileImg/18.png",
+  "/MobileImg/19.png",
+  "/MobileImg/20.png",
+];
 
 export const FeaturePageHeading = [
   "Outfit recommender",
