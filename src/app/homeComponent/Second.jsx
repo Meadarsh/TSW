@@ -97,7 +97,7 @@ const SecondPage = () => {
           className="w-full h-full overflow-hidden"
         >
           {FeaturePageMobileImg.map((path, index) => (
-            <SwiperSlide className="relative overflow-hidden">
+            <SwiperSlide  key={index} className="relative overflow-hidden">
               <img
                 src={path}
                 alt="N/a"
