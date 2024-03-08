@@ -134,7 +134,7 @@ const SecondPage = () => {
                     src={url}
                     alt="N/A"
                     width={2000}
-                    height={1080}
+                    height={1480}
                     className="h-full w-full object-cover"
                   />
                 </div>
